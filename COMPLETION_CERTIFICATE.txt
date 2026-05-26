@@ -1,0 +1,110 @@
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║                    PIER-VIBE COMPLETION CERTIFICATE                           ║
+║                                                                               ║
+║     Predictive Intelligence Engine for Resonance, Vibration, and Integrity   ║
+║     in Bridge Environments — A Critical Framework for Subsurface Scour       ║
+║     Mechanics, Dynamic Wave-Structure Interaction, and Resonance Fatigue     ║
+║                    Governance in Offshore and Riverine Bridges               ║
+║                                                                               ║
+║                           v1.0.0                                              ║
+║                           May 2026                                            ║
+║                                                                               ║
+║                           DOI: 10.5281/zenodo.20390646                        ║
+║                           Series: MARITIME-AI-01 · Project 1                  ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+This certificate formally acknowledges the completion of Project PIER-VIBE,
+the first installment of the MARITIME-AI research series (MARITIME-AI-01).
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ PROJECT OVERVIEW                                                              │
+├───────────────────────────────────────────────────────────────────────────────┤
+
+Project Code:     PIER-VIBE (MARITIME-AI-01)
+Version:          1.0.0
+Principal Investigator: Samir Baladi
+Affiliation:      Ronin Institute / Rite of Renaissance
+Submission Date:  May 2026
+Status:           ✅ COMPLETED
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ VALIDATION RESULTS                                                            │
+├───────────────────────────────────────────────────────────────────────────────┤
+
+┌─────────────────────────────────┬─────────────────────────────────────────────┐
+│ Metric                          │ Value                                       │
+├─────────────────────────────────┼─────────────────────────────────────────────┤
+│ Mean Scour Depth RMSE           │ 0.075 m                                     │
+│ Mean Fatigue Damage MAE         │ 2.8%                                        │
+│ Mean BSHI Accuracy              │ 96.9%                                       │
+│ Resonance Sensitivity           │ 94.4%                                       │
+│ False Critical Alert Rate       │ 2.8%                                        │
+│ Warning Lead Time               │ 24-72 hours                                 │
+└─────────────────────────────────┴─────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ SYSTEM ARCHITECTURE (3 Modules + 3 AI Components)                            │
+├───────────────────────────────────────────────────────────────────────────────┤
+
+┌─────────────────────────────────┬─────────────────────────────────────────────┐
+│ Module                          │ Function                                    │
+├─────────────────────────────────┼─────────────────────────────────────────────┤
+│ SSSE (Module 01)                │ Sub-surface scour depth prediction         │
+│ HSCE (Module 02)                │ Hydro-structural coupling with ALE          │
+│ EFGL (Module 03)                │ Elastic fatigue governance lock             │
+│ PINN Scour                      │ Physics-informed scour forecasting          │
+│ PINN Fatigue                    │ Physics-informed fatigue accumulation       │
+│ BSHI                            │ Bridge Structural Health Index composite    │
+└─────────────────────────────────┴─────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ DEPLOYMENT PLATFORMS                                                          │
+├───────────────────────────────────────────────────────────────────────────────┤
+
+┌─────────────────┬─────────────────────────────────────────────────────────────┐
+│ Platform        │ URL                                                         │
+├─────────────────┼─────────────────────────────────────────────────────────────┤
+│ GitHub (Primary)│ https://github.com/gitdeeper12/PIER-VIBE                    │
+│ GitLab (Mirror) │ https://gitlab.com/gitdeeper12/PIER-VIBE                    │
+│ PyPI            │ https://pypi.org/project/pier-vibe-engine                   │
+│ Netlify (Web)   │ https://pier-vibe.netlify.app                               │
+│ Zenodo (DOI)    │ https://doi.org/10.5281/zenodo.20390646                     │
+└─────────────────┴─────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ MARITIME-AI RESEARCH SERIES                                                   │
+├───────────────────────────────────────────────────────────────────────────────┤
+
+┌─────────────┬─────────────────────────────────────────────────────────────────┐
+│ Project     │ Title                                                           │
+├─────────────┼─────────────────────────────────────────────────────────────────┤
+│ MARITIME-AI-01│ PIER-VIBE: Bridge Pier Safety Framework ✅                     │
+└─────────────┴─────────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ PRINCIPAL INVESTIGATOR                                                        │
+├───────────────────────────────────────────────────────────────────────────────┤
+
+Name:     Samir Baladi
+Email:    gitdeeper@gmail.com
+ORCID:    0009-0003-8903-0029
+Web:      https://pier-vibe.netlify.app
+
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║   "Structural integrity is not negotiated with the sea — it is enforced      ║
+║    through real-time physics, adaptive intelligence, and principled          ║
+║    constraint design. A bridge pier is not a static obstacle in water;       ║
+║    it is a moving boundary-value problem embedded in a continuously          ║
+║    evolving hydrodynamic and geotechnical field. PIER-VIBE formalizes        ║
+║    and governs this evolution, enforcing structural integrity against        ║
+║    subsurface scour, wave-structure resonance, and fatigue accumulation      ║
+║    in real time."                                                            ║
+║                                                                               ║
+║                              — Samir Baladi, May 2026                         ║
+║                                                                               ║
+║                              ✅ COMPLETED                                     ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝

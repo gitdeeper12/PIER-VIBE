@@ -1,0 +1,36 @@
+
+PIER-VIBE Manifest File (MARITIME-AI-01)
+
+include README.md
+include LICENSE
+include AUTHORS.md
+include CHANGELOG.md
+include CONTRIBUTING.md
+include CODE_OF_CONDUCT.md
+include SECURITY.md
+include CITATION.cff
+
+include pyproject.toml
+include requirements.txt
+include requirements-dev.txt
+
+recursive-include pier_vibe *.py
+recursive-include tests *.py
+recursive-include examples *.py
+recursive-include simulation *.py *.json
+recursive-include configs *.yaml *.yml
+
+recursive-include Netlify *.html *.css *.js
+
+exclude .gitignore
+exclude .gitlab-ci.yml
+exclude .pre-commit-config.yaml
+exclude .readthedocs.yaml
+exclude Dockerfile
+exclude Makefile
+
+prune pycache
+prune *.pyc
+prune .pytest_cache
+prune .coverage
+prune htmlcov

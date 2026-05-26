@@ -1,0 +1,36 @@
+PIER-VIBE
+Predictive Intelligence Engine for Resonance, Vibration, and Integrity in Bridge Environments
+
+Copyright (c) 2026 Samir Baladi
+Ronin Institute / Rite of Renaissance | EntropyLab Series
+
+This product includes software developed by:
+
+· Samir Baladi (https://github.com/gitdeeper12)
+
+Third-party acknowledgments:
+
+· NumPy: Copyright (c) 2005-2024, NumPy Developers
+· SciPy: Copyright (c) 2001-2002, Enthought, Inc. et al.
+· PyTorch: Copyright (c) 2016-2024, Facebook, Inc. et al.
+· XGBoost: Copyright (c) 2014-2024, XGBoost Contributors
+· Streamlit: Copyright (c) 2018-2024, Streamlit Inc.
+· Plotly: Copyright (c) 2012-2024, Plotly Inc.
+
+Theoretical foundations based on works by:
+
+· Melville, B.W. & Coleman, S.E. (scour mechanics)
+· Morison, J.R. et al. (wave forces on piles)
+· Shields, A. (bed shear stress threshold)
+· Palmgren, A. & Miner, M.A. (fatigue accumulation)
+· Raissi, M. et al. (physics-informed neural networks)
+
+Domain classification: Systems Safety & Engineering (AI-augmented)
+Series: MARITIME-AI-01
+
+For complete license terms, see LICENSE file.
+For citation information, see CITATION.cff.
+
+Project DOI: 10.5281/zenodo.20390646
+Website: https://pier-vibe.netlify.app
+Repository: https://github.com/gitdeeper12/PIER-VIBE

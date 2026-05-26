@@ -1,0 +1,78 @@
+# PIER-VIBE GitLab CI/CD Pipeline (MARITIME-AI-01)
+
+stages:
+  - test
+  - build
+  - deploy
+  - mirror
+
+variables:
+  PYTHON_VERSION: "3.11"
+
+cache:
+  paths:
+    - .cache/pip
+    - .venv
+
+before_script:
+  - apt-get update -qq && apt-get install -y -qq python3-pip
+  - pip install --upgrade pip
+  - pip install pytest pytest-cov build twine
+
+test-python-3-11:
+  stage: test
+  image: python:3.11-slim
+  script:
+    - pip install -e .
+    - pip install pytest pytest-cov torch xgboost
+    - pytest tests/ -v --cov=pier_vibe
+
+test-ssse:
+  stage: test
+  image: python:3.11-slim
+  script:
+    - pip install -e .
+    - python -c "from pier_vibe.modules.ssse import SSSE; print('SSSE OK')"
+
+test-hsce:
+  stage: test
+  image: python:3.11-slim
+  script:
+    - pip install -e .
+    - python -c "from pier_vibe.modules.hsce import HSCE; print('HSCE OK')"
+
+test-efgl:
+  stage: test
+  image: python:3.11-slim
+  script:
+    - pip install -e .
+    - python -c "from pier_vibe.modules.efgl import EFGL; print('EFGL OK')"
+
+build-package:
+  stage: build
+  image: python:3.11-slim
+  script:
+    - pip install build
+    - python -m build
+  artifacts:
+    paths:
+      - dist/
+    expire_in: 1 week
+
+deploy-pypi:
+  stage: deploy
+  image: python:3.11-slim
+  only:
+    - tags
+  script:
+    - pip install twine
+    - twine upload --username __token__ --password $PYPI_TOKEN dist/*
+
+mirror-to-github:
+  stage: mirror
+  image: alpine/git:latest
+  only:
+    - main
+    - tags
+  script:
+    - git push --mirror git@github.com:gitdeeper12/PIER-VIBE.git

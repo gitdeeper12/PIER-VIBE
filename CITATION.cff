@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use PIER-VIBE in your research, please cite it as follows."
+title: "PIER-VIBE: Predictive Intelligence Engine for Resonance, Vibration, and Integrity in Bridge Environments — A Critical Framework for Subsurface Scour Mechanics, Dynamic Wave-Structure Interaction, and Resonance Fatigue Governance in Offshore and Riverine Bridges"
+authors:
+
+· family-names: "Baladi"
+  given-names: "Samir"
+  orcid: "https://orcid.org/0009-0003-8903-0029"
+  version: 1.0.0
+  doi: 10.5281/zenodo.20390646
+  date-released: 2026-05-26
+  url: "https://github.com/gitdeeper12/PIER-VIBE"
+  license: MIT
+  keywords:
+· bridge scour
+· wave-structure interaction
+· resonance fatigue
+· fluid-structure-soil coupling
+· Navier-Stokes
+· Palmgren-Miner
+· physics-informed neural networks
+· structural health monitoring
+· offshore bridge safety

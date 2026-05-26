@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pier-vibe-engine"
+version = "1.0.0"
+description = "PIER-VIBE: Predictive Intelligence Engine for Resonance, Vibration, and Integrity in Bridge Environments"
+authors = [{name = "Samir Baladi", email = "gitdeeper@gmail.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+"Development Status :: 4 - Beta",
+"Intended Audience :: Science/Research",
+"Intended Audience :: Engineering",
+"License :: OSI Approved :: MIT License",
+"Programming Language :: Python :: 3.9",
+"Programming Language :: Python :: 3.10",
+"Programming Language :: Python :: 3.11",
+"Topic :: Scientific/Engineering :: Artificial Intelligence",
+"Topic :: Scientific/Engineering :: Civil Engineering",
+]
+
+dependencies = [
+"numpy>=1.21.0",
+"scipy>=1.7.0",
+"torch>=2.0.0",
+"xgboost>=1.7.0",
+"streamlit>=1.28.0",
+"plotly>=5.17.0",
+"pydantic>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0.0", "pytest-cov>=4.0.0", "black>=22.0.0", "isort>=5.12.0"]
+ai = ["torch>=2.0.0", "xgboost>=1.7.0", "scikit-learn>=1.3.0"]
+
+[project.urls]
+"Homepage" = "https://pier-vibe.netlify.app"
+"Dashboard" = "https://pier-vibe.netlify.app/dashboard"
+"Documentation" = "https://pier-vibe.netlify.app/documentation"
+"Repository" = "https://github.com/gitdeeper12/PIER-VIBE"
+"GitLab" = "https://gitlab.com/gitdeeper12/PIER-VIBE"
+"PyPI" = "https://pypi.org/project/pier-vibe-engine"
+"DOI" = "https://doi.org/10.5281/zenodo.20390646"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pier_vibe*"]
